@@ -3,7 +3,14 @@ global ar
 
 
 while True:
-    choice = int(input("1)Create an Array\n2)Insert Element to array\n3)Append Element to a array\n4)Delete Element from array \n5)Search Element from array\n6)Display Array\n7)Exit\nEnter your choice :"))
+    choice = int(input("1)Create an Array" \
+    "\n2)Insert Element to array" \
+    "\n3)Append Element to a array" \
+    "\n4)Delete Element from array " \
+    "\n5)Search Element from array" \
+    "\n6)Display Array" \
+    "\n7)Exit" \
+    "\nEnter your choice :"))
     print("\n")
     if choice == 1:
         ar = arr.array('i')
