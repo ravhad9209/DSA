@@ -1,8 +1,8 @@
-stack = ["A","B","C"]
+stack = []
 
-# stack.append("A")
-# stack.append("B")
-# stack.append("C")
+stack.append("A")
+stack.append("B")
+stack.append("C")
 print("stack",stack)
 
 element = stack.pop()
